@@ -1,8 +1,8 @@
 // export const environment = {
-//   production: true,  // ✅ Since you're deploying this
+//   production: false,  // ✅ Since you're deploying this
 //   apiBaseUrl: 'http://18.170.25.223:8080/api',  // 🔁 Replace with your backend IP/domain
 //   appName: 'HRMS',
-//   enableDebug: false
+//   enableDebug: true
 // };
 
 export const environment = {
