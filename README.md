@@ -1,26 +1,3 @@
-## 📂 Repository Structure
-hrms_deployment/
-│── Jenkinsfile # CI/CD pipeline definition
-│
-├── docker/ # Dockerfiles for services
-│ ├── frontend/Dockerfile
-│ ├── backend/Dockerfile
-│
-├── k8s/ # Kubernetes manifests
-│ ├── frontend-deployment.yaml
-│ ├── backend-deployment.yaml
-│ ├── mysql-statefulset.yaml
-│ ├── configmap.yaml
-│ ├── secret.yaml
-│ ├── ingress.yaml
-│
-├── monitoring/ # Monitoring stack configs
-│ ├── prometheus-deployment.yaml
-│ ├── grafana-deployment.yaml
-│ ├── dashboards/
-
-
-
 # HRMS Deployment on Kubernetes with CI/CD & Monitoring
 
 This project demonstrates the deployment of a **3-Tier HRMS Application** (Frontend, Backend, MySQL Database) using **Docker, Kubernetes (kubeadm cluster), Jenkins CI/CD pipeline, and Monitoring with Prometheus & Grafana**.
