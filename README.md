@@ -15,12 +15,13 @@ It is designed as a **DevOps Portfolio Project** to showcase:
 
 ```mermaid
 flowchart LR
-    A[Developer] -->|Push Code| B[GitHub Repo]
-    B -->|Webhook| C[Jenkins Pipeline]
-    C -->|Build & Push| D[Docker Hub]
-    D -->|Deploy| E[Kubernetes Cluster (kubeadm)]
-    E -->|Exposes| F[Frontend Service]
+    A[Developer] --> B[GitHub Repo]
+    B --> C[Jenkins Pipeline]
+    C --> D[Docker Hub]
+    D --> E[Kubernetes Cluster (kubeadm)]
+    E --> F[Frontend Service]
     E --> G[Backend Service]
     E --> H[(MySQL StatefulSet)]
     E --> I[Prometheus]
     I --> J[Grafana Dashboards]
+
