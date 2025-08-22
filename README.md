@@ -1,3 +1,5 @@
+Structure:
+
 hrms_deployment/
 │── Jenkinsfile                # CI/CD pipeline
 │── docker/
