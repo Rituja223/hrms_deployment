@@ -1,4 +1,4 @@
-# 🚀 HRMS Deployment on Kubernetes with CI/CD & Monitoring
+# HRMS Deployment on Kubernetes with CI/CD & Monitoring
 
 This project demonstrates the deployment of a **3-Tier HRMS Application** (Frontend, Backend, MySQL Database) using **Docker, Kubernetes (kubeadm cluster), Jenkins CI/CD pipeline, and Monitoring with Prometheus & Grafana**.
 
@@ -9,7 +9,7 @@ It is designed as a **DevOps Portfolio Project** to showcase:
 - Monitoring & Observability using Prometheus + Grafana  
 - Best practices for Secrets, ConfigMaps, StatefulSets, and Ingress  
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```mermaid
 flowchart LR
