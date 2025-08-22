@@ -10,8 +10,7 @@ It is designed as a **DevOps Portfolio Project** to showcase:
 - Best practices for Secrets, ConfigMaps, StatefulSets, and Ingress  
 
 ---
-
-## Project Architecture
+## 🏗️ Project Architecture
 
 ```mermaid
 flowchart LR
