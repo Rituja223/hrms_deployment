@@ -9,8 +9,6 @@ It is designed as a **DevOps Portfolio Project** to showcase:
 - Monitoring & Observability using Prometheus + Grafana  
 - Best practices for Secrets, ConfigMaps, StatefulSets, and Ingress  
 
----
-
 ## 🏗️ Project Architecture
 
 ```mermaid
@@ -18,7 +16,7 @@ flowchart LR
     A[Developer] --> B[GitHub Repo]
     B --> C[Jenkins Pipeline]
     C --> D[Docker Hub]
-    D --> E[Kubernetes Cluster (kubeadm)]
+    D --> E["Kubernetes Cluster - kubeadm"]
     E --> F[Frontend Service]
     E --> G[Backend Service]
     E --> H[(MySQL StatefulSet)]
