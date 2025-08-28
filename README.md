@@ -22,3 +22,4 @@ flowchart LR
     E --> H[(MySQL StatefulSet)]
     E --> I[Prometheus]
     I --> J[Grafana Dashboards]
+Test Jenkins webhook trigger from EC2
